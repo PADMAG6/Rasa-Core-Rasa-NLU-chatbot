@@ -1,0 +1,78 @@
+slots:
+ cocoaAnlysis:
+   type: text
+  
+intents:
+ - greet
+ - information
+ 
+  
+entities:
+  - methodology
+  - location
+  - challenges
+  - benscostGhana
+  - trend and forecasting of three countries
+  - butter and power price 17-18
+  - porter's analysis
+  - cocoa products
+  - Trenda and Innovations in Cocoa Industry. 
+templates:
+  utter_greet:
+    - 'hi'
+    - 'how do you do?'
+  utter_methodology:
+    -  '1.Data Confidence
+        2.Data Coverage 
+        3.Data Creditability
+        4.Market,Cost,Pricing & Industry Analysis Section.
+        5.Industry Best Practices Section
+        6. Supplier Analysis Section.'
+  utter_countries:
+    - '1) Ivory Coast(40%) 
+       2) Ghana(20%)
+       3) Indonesia(9%)'
+  utter_challenges:
+    - 'Lack of modern faming amenities, weather related losses, high transportation cost, Poor soil fertility.'
+  utter_benscostGhana:
+    - 'Labor    48%,
+       irrigation Cost  3%, crop protection-pesticides 4%, production cost 32%, operating ost 9%, fuel 4%, replaement cost(seeds,trees, equipment) 4%.'
+  utter_trend and forecasting of three countries:
+    - ' country       2017   2018  
+        Irvony cost    1.94   1.89
+        Ghana         0.9    1.01
+        Idonesia      0.43   0.45.'
+  utter_butter and power price 17-18:
+    - 'the low bean quality despite the incerase in bean supply for butter and existing high stockpile for powder. the strengthening of Euro may impact the price of cocoa derivatives from countries, like the Netherlands.'
+  utter_porters analysis:
+    -  '> Supplier Power
+        > Buyer Power
+        > Barriers to New Entrants 
+        > Intensity of Rivalry 
+        > Threat of substitutes.'
+  utter_cocoa products:
+    -  'cocoa, cocoa Butter, liquor and powder.'
+  utter_harvesting countries:
+    - 'Price can be expected to be the lowest during harvest and post-harvest period and high during off-season. 
+       The current, improved harvest is attributed to favorable growing conditions in major cultivating belts, like West Africa.
+       However, unfavorable price scenario is proving to be a challenge for growers, who are letting 
+       beans rot on the trees, which could impact consequent planting and harvest.'
+  utter_Trenda and Innovations in Cocoa Industry:
+    - 'Cocoa Liquor: The use of cocoa liquor is on the rise, as manufacturers have discovered utilizing liquors efficiently compared to cocoa powder. Liquor, being an intermediate product, relieves further process to produce cocoa powder. This makes the value chain short and hence, being cost effective. This trend, however, is seen since 2015/16 onwards and is hard to quantify for its effectiveness across various applications.
+      Organic: The demand for organic cocoa is on the rise and is expected to continue at a larger pace. The growth rate was at 7 percent in 2010 and is now at 12 percent in 2016 in Europe, which is a major consumer of organic cocoa products. However, the shortage in organic cocoa supply is fuelled by a variety of factors. The first huge factor being smaller yield, farmers who use agrochemical pesticides can expect around 0.7 to 1.5 MT per hectare with a decent farm management, wherein an organic farm can only produce roughly about 300–500 kg of cocoa per hectare.
+      Nutritional Benefits: With increasing cases of heart conditions, blood pressure, diabetes, and cancer, there is a sharp increase in consumption of natural food products that are proven positive in relieving these conditions. Cocoa is antioxidant rich, proven to decrease HDL, dilates blood vessels to ease blood pressure, increases insulin sensitivity, and is known to improve heart condition. Moreover, consumption of dark chocolate is favored, as it contains more cocoa and with no or low added sugar is preferred by diabetes condition.
+      Clean Label Products: With increasing demand for clean label products, confectionery manufacturers are shifting to natural alternatives. Barry Callebaut has introduced ‘Bensdorp Clean’, cocoa powder that is processed using baking soda instead of using alkalizing agents, thereby making their product fit to be categorized as clean labeled.'  
+  
+  
+actions:
+ -  utter_greet
+ -  utter_methodology
+ -  utter_countries
+ -  utter_challenges
+ -  utter_benscostGhana                 
+ -  utter_trend and forecasting of three countries
+ -  utter_butter and power price 17-18
+ -  utter_porters analysis
+ -  utter_cocoa products
+ -  utter_harvesting countries
+ -  utter_Trenda and Innovations in Cocoa Industry
