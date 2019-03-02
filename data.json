@@ -1,0 +1,117 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "text": "Hi",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "how are you?",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "What is the Reasearch Methodology in Category Intelligence on Cocoa?",
+        "intent": "information",
+        "entities": [
+          {
+            "start": 12,
+            "end": 33,
+            "value": "Reasearch Methodology",
+            "entity": "methodology"
+          }
+        ]
+      },
+      {
+        "text": "which countries are key producers of cocoa?",
+        "intent": "information",
+        "entities": [
+          {
+            "start": 5,
+            "end": 15,
+            "value": " countries",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "what are Major Challenges in cocoa supply Chain?",
+        "intent": "information",
+        "entities": [
+          {
+            "start": 9,
+            "end": 25,
+            "value": "Major Challenges",
+            "entity": "challenges"
+          }
+        ]
+      },
+      {
+        "text": "Cocoa harvesting season in countries.",
+        "intent": "information",
+        "entities": []
+      },
+      {
+        "text": "Cocoa beans cost analysis in Ghana in the year of 2017",
+        "intent": "information",
+        "entities": [
+          {
+            "start": 5,
+            "end": 35,
+            "value": " beans cost analysis in Ghana ",
+            "entity": "benscostGhana"
+          }
+        ]
+      },
+      {
+        "text": "Historical production trend and forecasting of the top three countries",
+        "intent": "information",
+        "entities": [
+          {
+            "start": 11,
+            "end": 70,
+            "value": "production trend and forecasting of the top three countries",
+            "entity": "trend and forecasting of three countries"
+          }
+        ]
+      },
+      {
+        "text": "Cocoa butter and powder key price drivers in 2017-18 ",
+        "intent": "information",
+        "entities": [
+          {
+            "start": 5,
+            "end": 53,
+            "value": " butter and powder key price drivers in 2017-18 ",
+            "entity": "butter and power price 17-18"
+          }
+        ]
+      },
+      {
+        "text": "Porter's Five forces Analysis.",
+        "intent": "information",
+        "entities": [
+          {
+            "start": 0,
+            "end": 29,
+            "value": "Porter's Five forces Analysis",
+            "entity": "porter's analysis"
+          }
+        ]
+      },
+      {
+        "text": " what are the cocoa products?",
+        "intent": "information",
+        "entities": [
+          {
+            "start": 14,
+            "end": 28,
+            "value": "cocoa products",
+            "entity": "cocoa products"
+          }
+        ]
+      }
+    ]
+  }
+}
